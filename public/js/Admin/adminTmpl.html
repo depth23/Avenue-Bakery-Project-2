@@ -13,7 +13,7 @@
         </label>
         <label>Name *
             <input ng-model="newProduct.name" type="text" placeholder="Type Here">
-        </label>
+        </label><br />
         <label>Description *
             <input ng-model="newProduct.description" type="text" placeholder="Type Here">
         </label>
@@ -24,23 +24,25 @@
     </div>
     <div class="productsContainer">
         <div class="products" ng-if="products.length > 0" ng-repeat="product in products">
-            Category: {{product.category}}
+            <h4>Category: {{product.category}}</h4>
             <br />
-            <img ng-show="product.image" ng-src="{{product.image}}" height="55" width="55"/>
+            <img ng-if="product.image" ng-show="product.image" ng-src="{{product.image}}" height="200" width="200"/>
             <br />
-            Name: {{product.name}}
-            <br />
-            Description: {{product.description}}
-            <br />
-            Price: ${{product.price}}
-            <br />
+            <p>
+                Name: {{product.name}}
+                <br />
+                Description: {{product.description}}
+                <br />
+                Price: ${{product.price}}
+                <br />
+            </p>    
             <span>
                 <input ng-click="addToDelete(product, productsToDelete)" type="checkbox" ng-model="product.delete"></input>
             </span>
         </div>
     </div>
     <button class="deleteButton" ng-click="deleteProducts(productsToDelete)">Delete</button>
-    <button class="deleteButton" ng-click="addToSeasonal(product)">Add To Seasonal</button>
+    <button class="deleteButton" ng-click="addToSeasonal(product)">+ Seasonal</button>
 </div>
 
 <!--users page-->
@@ -62,6 +64,6 @@
                 <input ng-click="addToDelete(user, usersToDelete)" type="checkbox" ng-model="user.delete">
             </span>
         </div>
-        <button class="deleteButton" ng-click="deleteUsers(usersToDelete)">Deleted</button>
+        <button class="deleteButton" ng-click="deleteUsers(usersToDelete)">Delete</button>
     </div>
 </div>

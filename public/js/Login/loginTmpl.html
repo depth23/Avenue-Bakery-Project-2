@@ -5,16 +5,13 @@
         <div class="loginInnerContainer" ng-hide="login">
             <form class="loginBody">
                 <h1 class="loginText">Login</h1>
-                <label class="loginItemName">Username
+                    <p class="loginItemName">Username</p>
                     <input type="text" class="loginItem" placeholder="Type Here" ng-model="credentials.email">
-                </label>    
-                    <br />
-                    <br />
-                <label class="loginItemName">Password
+                <p class="loginItemName">Password</p>
                     <input type="password" class="loginItem" placeholder="Type Here" ng-model="credentials.password">
-                </label>    
                     <br />
                     <br />
+                <br />
                 <button type="submit" class="loginButton" ng-click="logInUser(credentials)">Log In</button>
                 <p class="loginText">Not Yet a Member?</p>
                 <button class="loginButton" ng-click="login = !login">Register</button>
@@ -23,37 +20,16 @@
     <div class="loginInnerContainer" ng-show="login" class="ng-hide">
         <form class="loginBody">
             <h1 class="loginText">Sign Up</h1>
-            <label class="loginItemName">First Name
-                <input ng-model="newUser.first" class="loginItem" placeholder="Type Here">
-            </label>    
-                <br />
-                <br />
-            <label class="loginItemName">Last Name
-                <input ng-model="newUser.last" class="loginItem" placeholder="Type Here">
-            </label>
-                <br />
-                <br />
-            <label class="loginItemName">Email
-                <input ng-model="newUser.email" type="email" class="loginItem" placeholder="Type Here">
-            </label>    
-                <br />
-                <br />
-            <label class="loginItemName">Phone Number
-                <input ng-model="newUser.phone" type="tel" class="loginItem" placeholder="Type Here">
-            </label>    
-                <br />
-                <br />
-            <label class="loginItemName">Create Password
+            <p class="loginItemName">First Name</p>
+                <input ng-model="newUser.first" class="loginItem" placeholder="Type Here">    
+            <p class="loginItemName">Last Name</p>
+                <input ng-model="newUser.last" class="loginItem" placeholder="Type Here">   
+            <p class="loginItemName">Email</p> 
+                <input ng-model="newUser.email" type="email" class="loginItem" placeholder="Type Here">    
+            <p class="loginItemName">Phone Number</p> 
+                <input ng-model="newUser.phone" type="tel" class="loginItem" placeholder="Type Here">    
+            <p class="loginItemName">Create Password</p>
                 <input ng-model="newUser.password" type="password" class="loginItem" placeholder="Type Here">
-            </label>    
-                <br />
-                <br />
-<!--
-            <label class="loginItemName">ReEnter Password
-                <input ng-model="newUser.password" type="password" class="loginItem" placeholder="Type Here">
-            </label>
--->
-                <br />
                 <br />
             <button type="submit" class="loginButton" ng-click="addNewUser(newUser)">Submit</button>
             <p class="loginText">Already a Member?</p>

@@ -34,21 +34,23 @@ html, body {
 .nav {
     display: flex;
     justify-content: center;    
-    color: black;
+    text-decoration-color: black;
     border: none;
-    background: none;
+    background-color: white;
 
 }
 
 #navItem {
     color: black;
-    border-right: 1px solid black;
+    border-right: 2px solid black;
     
     
 }
 
 .navItemEnd {
     color: black;
+    font-family: 'Sacramento', cursive;
+    font-size: 25px;
     
 }
 
@@ -68,7 +70,7 @@ html, body {
 }
 
 .footerTitle {
-    font-size: 22px;
+    font-size: 25px;
     border-bottom: 1px solid white;
 }
 
@@ -97,21 +99,26 @@ html, body {
     border-left: 5px double white;
 }
 
-/*
-.homeOven {
-    min-height: 100%;
-    min-width: 100%;
-    background-image: url("img/arofgopen.jpg");
-    background-repeat: no-repeat;
-    background-size: 75% 75%;
-    overflow: hidden;
-*/
+.home {
+
 }
 
-.inOvenPic {
-    height: inherit;
-    width: inherit;
-    overflow: hidden;
+.homeType {
+    width: 50%;
+    background-image: url(img/border-md.jpg);
+    background-repeat:round;
+    background-size: 75% 100%;
+    float: right; 
+    text-align: center;
+    text-shadow: 2px 2px white;
+    font-size: 70px;
+    
+}
+
+.homePic {
+    float: left;
+    border: 2px double black;
+
 }
 
 .login {
@@ -132,6 +139,7 @@ html, body {
 .loginPicLeft {
     height: 120%;
     width: 245%;
+    
 }
 
 .loginPicRight {    
@@ -148,7 +156,8 @@ html, body {
 }
 
 .loginBody {
-    background: bisque;
+    color: white;
+    background: grey;
     min-height: 300px;
     width: 100%;
 
@@ -157,28 +166,33 @@ html, body {
 .loginText {
     display: flex;
     justify-content: center;
+    text-shadow: 2px 2px black;
 }
 
 .loginItemName {
     width: 300px;
     height: 18px;
     display: block;
-    margin: 5px auto;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
 }
 
 .loginItem {
     width: 290px;
     height: 18px;
     display: block;
-    margin: 0 auto;
+/*    margin: 0 auto;*/
     border-right: 2px solid black;
     border-bottom: 2px solid black;
-    box-shadow: 3px 3px grey;
+    box-shadow: 3px 3px black;
 }
 .loginButton {
     display: block;
     margin: 0 auto;
     border-bottom: 1px double black;
+    border-right: 1px solid black;
+    font-family: inherit;
+    font-size: 25px;
 }
 
 .menu {
@@ -212,13 +226,8 @@ html, body {
 
 .menuItems {
     border-image-source: url(img/border-md.png) 100% stretch;
-/*
-    border-image-width: 20px;
-    color: white;
-*/
+    text-shadow: 2px 2px grey;
 }
-
-
 
 .productsContainer {
     display: flex;
@@ -231,58 +240,158 @@ html, body {
     text-align: center;
 }
 
-.productsUsersButton, addProductsButton, deleteButton {
+.productsUsersButton {
+    width: auto;
     position: relative;
     left: 46%;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid blacks;
+    font-family: inherit;
+    font-size: 25px;
     
 }
 
+.addProductsButton {
+    width: auto;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    font-family: inherit;
+    font-size: 25px;
+}
+
+.deleteButton {
+    width: auto;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    font-family: inherit;
+    font-size: 25px;
+}
+
 .products {
-    height: 200px;
-    width: 300px;
-    display: flex;
+    height: auto;
+    width: 45%;
+    display: block;
+/*
     justify-content: space-between;
     flex-direction: column;
-    background: bisque;
+*/
+    color: white;
+    background: grey;
     margin-top: 10px;
     margin-right 10px;  
-    border: 10px red;
+    border: 10px black;
     border-style: groove groove groove double;
 }
 
 .users {
-    background: bisque;
-    height: 110px;
-    width: 175px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    color: white;
+    background: grey;
+    height: auto;
+    width: 45%;
+    display: block;
     margin-top: 10px;
     margin-right 10px;
-    border: 10px red;
+    border: 10px black;
     border-style: groove groove groove double;
 }
 
+.aboutTitle {
+    text-align: center;
+}
+
+.map {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    border: 3px double black;
+    box-shadow: 3px 3px grey
+}
+
+.aboutIcons {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+
+.faqs {
+    text-align: center;
+    
+}
+
+.faqsPicLeft {
+    display: inline-block;
+    float: left;
+    border: 2px solid black;
+    
+}
+
+.faqsPicRight {
+    display: inline-block;
+    float: right;
+    border: 2px solid black;
+
+}
+
+.seasonal {
+    text-align: center;
+}
+
+.seasonalImg {
+    border: 2px solid black;
+}
+
 button {
-    height: 20px;
-    width: 90px;
+    height: 40px;
+    width: 100px;
     border: none;
     background: none;
-/*    border: 1px solid black;*/
     text-align: center;
     color: black;
+    
 }
 
 button:hover {
     background-color: grey;
+    color: white;
+    
 }
 
 button:active {
-    background-color: red;
+    text-decoration-color: white;
+    background-color: black;
+   
 }
 
 a {
-    text-decoration:;
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
     color: inherit;
+    text-decoration-line: underline;
+}
+
+a:hover {
+    color: white;
+    text-shadow: 2px 2px grey;
+}
+
+
+label {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+h4 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px;
 }
