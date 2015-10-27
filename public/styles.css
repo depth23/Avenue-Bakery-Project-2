@@ -1,0 +1,288 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Sacramento', cursive;
+}
+
+.header {
+    min-height: 170px;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url("./img/awning.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-bottom: 20px double black;
+    
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo {
+    height: inherit;
+    width: 40%;
+    background: white;
+    border-radius: 100%;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: center;    
+    color: black;
+    border: none;
+    background: none;
+
+}
+
+#navItem {
+    color: black;
+    border-right: 1px solid black;
+    
+    
+}
+
+.navItemEnd {
+    color: black;
+    
+}
+
+.body {
+    min-height: 800px;
+    height: auto;
+}
+
+.footer {
+    
+    display: flex;
+    justify-content: center;
+    background: black;
+    border-top: 50px double white;
+    border-right: 20px solid white;
+    border-left: 20px solid white;
+}
+
+.footerTitle {
+    font-size: 22px;
+    border-bottom: 1px solid white;
+}
+
+.footerItem {
+    height: auto;
+    width: 160px;
+    display: inline-block; 
+    text-align: center;
+    text-shadow: 1px 1px grey;
+    background: white;
+
+}
+
+.footerItem > h3 > p {
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+}
+
+.footerItemStripe {
+    min-height: 100%;
+    width: 60px;
+    display: inline-block; 
+    margin: 0 auto;
+    background: white;
+    border-left: 5px double white;
+}
+
+/*
+.homeOven {
+    min-height: 100%;
+    min-width: 100%;
+    background-image: url("img/arofgopen.jpg");
+    background-repeat: no-repeat;
+    background-size: 75% 75%;
+    overflow: hidden;
+*/
+}
+
+.inOvenPic {
+    height: inherit;
+    width: inherit;
+    overflow: hidden;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.loginLeftRight {
+    height: 700px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+
+.loginPicLeft {
+    height: 120%;
+    width: 245%;
+}
+
+.loginPicRight {    
+    height: 120%;
+    width: 245%;
+        
+}
+
+.loginInnerContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px 0px 20px;
+
+}
+
+.loginBody {
+    background: bisque;
+    min-height: 300px;
+    width: 100%;
+
+}
+
+.loginText {
+    display: flex;
+    justify-content: center;
+}
+
+.loginItemName {
+    width: 300px;
+    height: 18px;
+    display: block;
+    margin: 5px auto;
+}
+
+.loginItem {
+    width: 290px;
+    height: 18px;
+    display: block;
+    margin: 0 auto;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    box-shadow: 3px 3px grey;
+}
+.loginButton {
+    display: block;
+    margin: 0 auto;
+    border-bottom: 1px double black;
+}
+
+.menu {
+    text-align: center;
+    border-left: 50px double black;
+    border-right: 50px double black;
+    
+}
+
+.menuContainer {
+    
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.menuCategories {
+    height: auto;
+    width: 600px;
+    display: grid;
+    background-image: url(img/chalkboard_by_lorelinde-d8u2l4g.jpg);
+    background-repeat: repeat-y;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+  
+}
+
+.menuItems {
+    border-image-source: url(img/border-md.png) 100% stretch;
+/*
+    border-image-width: 20px;
+    color: white;
+*/
+}
+
+
+
+.productsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.productsUsersTitle {
+    text-align: center;
+}
+
+.productsUsersButton, addProductsButton, deleteButton {
+    position: relative;
+    left: 46%;
+    border-bottom: 1px solid red;
+    
+}
+
+.products {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: bisque;
+    margin-top: 10px;
+    margin-right 10px;  
+    border: 10px red;
+    border-style: groove groove groove double;
+}
+
+.users {
+    background: bisque;
+    height: 110px;
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right 10px;
+    border: 10px red;
+    border-style: groove groove groove double;
+}
+
+button {
+    height: 20px;
+    width: 90px;
+    border: none;
+    background: none;
+/*    border: 1px solid black;*/
+    text-align: center;
+    color: black;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+button:active {
+    background-color: red;
+}
+
+a {
+    text-decoration:;
+    color: inherit;
+}

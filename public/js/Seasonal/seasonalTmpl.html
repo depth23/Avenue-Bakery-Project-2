@@ -1,0 +1,10 @@
+<div>
+    <h1>Seasonal</h1>
+    <div class="seasonalItems" ng-repeat="product in products track by $index">
+        <h4>{{product.name}}</h4>
+        <img ng-show="item.image" ng-src="{{item.image}}" height="55" width="55" />
+        <p>{{item.description}}</p>
+        <strong>{{item.price}}</strong>
+        <button>Add To Cart</button>
+    </div>
+</div>

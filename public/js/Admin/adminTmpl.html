@@ -1,0 +1,67 @@
+<!--products page-->
+<div ng-hide="click">
+    <br >
+    <button class= "productsUsersButton" ng-click="click = !click">Products/Users</button>
+    <div class="productsInput">
+        <h1 class="productsUsersTitle">Products</h1>
+        <h4>Add Product</h4>
+        <label>Img URL
+            <input ng-model="newProduct.image" type="text" placeholder="Type Here">
+        </label>
+        <label>Category *
+            <input ng-model="newProduct.category" type="text" placeholder="Type Here">
+        </label>
+        <label>Name *
+            <input ng-model="newProduct.name" type="text" placeholder="Type Here">
+        </label>
+        <label>Description *
+            <input ng-model="newProduct.description" type="text" placeholder="Type Here">
+        </label>
+        <label>Price $ *
+            <input ng-model="newProduct.price" type="text" placeholder="Type Here">
+        </label>    
+        <button class="addProductsButton" ng-click="addProduct(newProduct)">Add Product</button>
+    </div>
+    <div class="productsContainer">
+        <div class="products" ng-if="products.length > 0" ng-repeat="product in products">
+            Category: {{product.category}}
+            <br />
+            <img ng-show="product.image" ng-src="{{product.image}}" height="55" width="55"/>
+            <br />
+            Name: {{product.name}}
+            <br />
+            Description: {{product.description}}
+            <br />
+            Price: ${{product.price}}
+            <br />
+            <span>
+                <input ng-click="addToDelete(product, productsToDelete)" type="checkbox" ng-model="product.delete"></input>
+            </span>
+        </div>
+    </div>
+    <button class="deleteButton" ng-click="deleteProducts(productsToDelete)">Delete</button>
+    <button class="deleteButton" ng-click="addToSeasonal(product)">Add To Seasonal</button>
+</div>
+
+<!--users page-->
+<div ng-show="click" class="ng-hide">
+    <div>
+        <br />
+        <button class="productsUsersButton" ng-click="click = !click">Products/Users</button>
+    </div>
+    <div>
+        <h1 class="productsUsersTitle">Users</h1>
+        <div class="users" ng-model="allUsers" ng-if="users.length > 0" ng-repeat="user in users">
+            Name: {{user.first + user.last}}
+            <br />
+            Email: {{user.email}}
+            <br />
+            Phone: {{user.phone}}
+            <br />
+            <span>
+                <input ng-click="addToDelete(user, usersToDelete)" type="checkbox" ng-model="user.delete">
+            </span>
+        </div>
+        <button class="deleteButton" ng-click="deleteUsers(usersToDelete)">Deleted</button>
+    </div>
+</div>

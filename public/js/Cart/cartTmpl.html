@@ -1,0 +1,10 @@
+<div class="cartContainer">
+    <h1>Cart</h1>
+    <div class="cartItems" ng-repeat="item in cart track by $index">
+        <h4>{{item.name}}</h4>
+                <img ng-show="item.image" ng-src="{{item.image}}" height="55" width="55" />
+                <p>{{item.description}}</p>
+                <strong>{{item.price}}</strong>
+        <button ng-click="removeFromCart($index)">Delete</button>
+    </div>
+</div>    

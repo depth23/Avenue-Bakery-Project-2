@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html ng-app="avBApp">
+<head>
+    <meta charset="utf-8" />
+    <title>The Avenue Bakery</title>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Sacramento" />
+    <link type="text/css" rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.min.js"></script>
+</head>
+    
+<body ng-controller="avBCtrl">
+    <header class="header">
+        <div class="logoContainer"><img class="logo" src="img/theavenuebakery2.png" /></div>
+    </header>
+        <br />
+        <nav class="nav">
+            <button class="navItem"><a href="#/Login">Login</a></button>
+            <button class="navItem"><a href="#/">Home</a></button>
+            <button class="navItem"><a href="#/Menu">Menu</a></button>
+            <button class="navItem"><a href="#/Seasonal">Seasonal</a></button>
+            <button class="navItem"><a href="#/About">About</a></button>
+            <button class="navItem"><a href="#/Faqs">FAQ's</a></button>
+            <button class="navItem"><a href="#/Cart">Cart</a></button>
+            <button class="navItem"><a href="#/Admin">Admin</a></button>  
+            <button class="navItemEnd" ng-click="logOutUser()">Log Out</button>
+        </nav>
+    <div class="body">
+        <ng-view></ng-view>
+    </div>
+    <nav class="nav">
+            <button id="navItem"><a href="#/Login">Login</a></button>
+            <button id="navItem"><a href="#/">Home</a></button>
+            <button id="navItem"><a href="#/Menu">Menu</a></button>
+            <button id="navItem"><a href="#/Seasonal">Seasonal</a></button>
+            <button id="navItem"><a href="#/About">About</a></button>
+            <button id="navItem"><a href="#/Faqs">FAQ's</a></button>
+            <button id="navItem"><a href="#/Cart">Cart</a></button>
+            <button id="navItem"><a href="#/Admin">Admin</a></button>
+            <button id="navItemEnd" ng-click="logOutUser()">Log Out</button>
+        </nav>
+    <br />
+    <br />
+    <br />
+    <footer class="footer">
+        <div class="footerItem">
+            <h3 class="footerTitle">Location</h3>
+                <p>35 Barratt Ave
+                    <br /> 
+                    American Fork, UT
+                    <br />
+                    84003
+                </p>
+        </div>
+        <div class="footerItemStripe"></div>
+        <div class="footerItem">
+            <h3 class="footerTitle">Hours</h3>
+                <p>Mon-Sat
+                    <br />
+                    6:30AM-6:00PM
+                    <br />
+                    <br />
+                   Sun 
+                    <br />
+                    Closed
+                </p>
+        </div>
+        <div class="footerItemStripe"></div>
+        <div class="footerItem">
+            <h3 class="footerTitle">Contact</h3>
+                <p>(801) 420-2011</p>
+                <p>EMAIL</p>
+<!--                <p>BdPdesign@yahoo.com</p>-->
+        </div>
+        <div class="footerItemStripe"></div>
+        <div class="footerItem">
+            <h3 class="footerTitle">Follow</h3>
+                <p>Facebook</p>
+                <p>Instagram</p>
+        </div>
+    </footer>
+    <script src="js/avBApp.js"></script>
+    <script src="js/avBCtrl.js"></script>
+    <script src="js/avBSrvc.js"></script>
+    <script src="js/Login/loginCtrl.js"></script>
+    <script src="js/Login/loginSrvc.js"></script>
+    <script src="js/About/aboutCtrl.js"></script>
+    <script src="js/Faqs/faqsCtrl.js"></script>
+    <script src="js/Home/homeCtrl.js"></script>
+    <script src="js/Seasonal/seasonalCtrl.js"></script>
+    <script src="js/Seasonal/seasonalSrvc.js"></script>
+    <script src="js/Menu/menuCtrl.js"></script>
+    <script src="js/Menu/menuService.js"></script>
+    <script src="js/Cart/cartCtrl.js"></script>
+    <script src="js/Cart/cartSrvc.js"></script>
+    <script src="js/Admin/adminCtrl.js"></script>
+    <script src="js/Admin/adminSrvc.js"></script> 
+    <script src="js/Admin/usersSrvc.js"></script>
+</body>
+</html>
