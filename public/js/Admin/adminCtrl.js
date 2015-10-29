@@ -42,8 +42,8 @@ app.controller('adminCtrl', function($scope, adminSrvc, usersSrvc, products, use
         })
     };
     
-    $scope.addToSeasonal = function(item) {
-        seasonalSrvc.addToSeasonal(item);
+    $scope.addToSeasonal = function(arr) {
+        seasonalSrvc.addToSeasonal(arr);
     }
 });
 

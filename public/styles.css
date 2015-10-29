@@ -50,7 +50,7 @@ html, body {
 .navItemEnd {
     color: black;
     font-family: 'Sacramento', cursive;
-    font-size: 25px;
+    font-size: 27px;
     
 }
 
@@ -303,14 +303,14 @@ html, body {
     width: auto;
     display: flex;
     justify-content: space-between;
-    border: 3px double black;
+    border: 5px double black;
     box-shadow: 3px 3px grey
 }
 
 .aboutIcons {
     display: flex;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
 

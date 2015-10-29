@@ -4,7 +4,7 @@ app.service("seasonalSrvc", function() {
     
     var seasonal = [];
     this.addToSeasonal = function(product) {
-            seasonal.push(product);
+        seasonal.push(product);
     }
     
     this.getSeasonal = function() {
