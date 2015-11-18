@@ -41,9 +41,10 @@ html, body {
 }
 
 .navItem {
-    color: black;
-    border-right: 2px solid black;
-    margin-right: 2em;
+  width: 12em;
+  color: black;
+  border-right: 0.1em solid black;
+  margin-right: 2em;
     
     
 }
