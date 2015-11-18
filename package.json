@@ -1,0 +1,26 @@
+{
+  "name": "theavenuebakery",
+  "version": "1.0.0",
+  "description": "bakery website",
+  "main": "index.js",
+  "dependencies": {
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/depth23/Avenue-Bakery-Project-2.git"
+  },
+  "keywords": [
+    "key"
+  ],
+  "author": "DeonSharps",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/depth23/Avenue-Bakery-Project-2/issues"
+  },
+  "homepage": "https://github.com/depth23/Avenue-Bakery-Project-2#readme"
+}
