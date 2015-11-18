@@ -134,8 +134,8 @@ html, body {
 
 .carousel{
   overflow:hidden;
-  width:600px;
-  height: 600px;
+  width: 42em;
+  height: 42em;
 
 }
 
@@ -147,9 +147,9 @@ html, body {
     -moz-animation:carousel 30s infinite;
     -webkit-animation:carousel 30s infinite;
     animation:carousel 30s infinite;
-    margin-top: 1em;
+    margin-top: 0em;
     margin-left: -2.5em;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
 
 }
 
