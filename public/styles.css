@@ -1,47 +1,49 @@
 html, body {
-    height: 100%;
-    width: 100%;
-    font-family: 'Sacramento', cursive;
+  height: 100%;
+  width: 100%;
+  font-family: 'Sacramento', cursive;
+
 }
 
 .pageTitle{
   text-align: center;
   text-decoration: underline;
+
 }
 
 .header {
-    min-height: 170px;
-    height: 30%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background-image: url("./img/awning.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    border-bottom: 20px double black;
+  min-height: 170px;
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("./img/awning.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-bottom: 20px double black;
     
 }
 
 .logoContainer {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
     
 }
 
 .logo {
-    height: inherit;
-    width: 40%;
-    background: white;
-    border-radius: 100%;
+  height: inherit;
+  width: 40%;
+  background: white;
+  border-radius: 100%;
     
 }
 
 .nav {
-    display: flex;
-    justify-content: center;    
-    text-decoration-color: black;
-    border: none;
-    background-color: white;
+  display: flex;
+  justify-content: center;    
+  text-decoration-color: black;
+  border: none;
+  background-color: white;
 
 }
 
@@ -53,55 +55,59 @@ html, body {
 }
 
 .navItemEnd {
-    color: black;
-    font-family: 'Sacramento', cursive;
-    font-size: 27px;
+  color: black;
+  font-family: 'Sacramento', cursive;
+  font-size: 27px;
     
 }
 
 .body {
-    min-height: 800px;
-    height: auto;
+  min-height: 800px;
+  height: auto;
+
 }
 
-.footer {
-    
-    display: flex;
-    justify-content: center;
-    background: black;
-    border-top: 50px double white;
-    border-right: 20px solid white;
-    border-left: 20px solid white;
+.footer { 
+  display: flex;
+  justify-content: center;
+  background: black;
+  border-top: 50px double white;
+  border-right: 20px solid white;
+  border-left: 20px solid white;
+
 }
 
 .footerTitle {
-    font-size: 25px;
-    border-bottom: 1px solid white;
+  font-size: 25px;
+  border-bottom: 1px solid white;
+
 }
 
 .footerItem {
-    height: auto;
-    width: 160px;
-    display: inline-block; 
-    text-align: center;
-    text-shadow: 1px 1px grey;
-    background: white;
+  height: auto;
+  width: 160px;
+  display: inline-block; 
+  text-align: center;
+  text-shadow: 1px 1px grey;
+  background: white;
 
 }
 
 .footerItem > h3 > p {
-    display: flex;
-    justify-content: center;
-    font-weight: 800;
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+
 }
 
 .footerItemStripe {
-    min-height: 100%;
-    width: 60px;
-    display: inline-block; 
-    margin: 0 auto;
-    background: white;
-    border-left: 5px double white;
+  min-height: 100%;
+  width: 60px;
+  display: inline-block; 
+  margin: 0 auto;
+  background: white;
+  border-left: 5px double white;
+
 }
 
 .home {
@@ -109,357 +115,374 @@ html, body {
 }
 
 .homeType {
-    width: 50%;
-    background-image: url(img/border-md.jpg);
-    background-repeat:round;
-    background-size: 75% 100%;
-    float: right; 
-    text-align: center;
-    text-shadow: 2px 2px white;
-    font-size: 70px;
+  width: 50%;
+  background-image: url(img/border-md.jpg);
+  background-repeat:round;
+  background-size: 75% 100%;
+  float: right; 
+  text-align: center;
+  text-shadow: 2px 2px white;
+  font-size: 70px;
     
 }
 
 .homePic {
-    float: left;
-    border: 2px double black;
+  float: left;
+  border: 2px double black;
 
 }
 
 .carousel{
-    overflow:hidden;
-    width:600px;
-    height: 600px;
+  overflow:hidden;
+  width:600px;
+  height: 600px;
+
 }
+
 .panes{
-    list-style:none;
-    position: relative;
-    width:500%; /* Number of panes * 100% */
-    overflow:hidden; /* This is used solely to clear floats, it does not add functionality. */
-        
+  list-style:none;
+  position: relative;
+  width:500%; /* Number of panes * 100% */
+  overflow:hidden; /* This is used solely to clear floats, it does not add functionality. */        
     -moz-animation:carousel 30s infinite;
     -webkit-animation:carousel 30s infinite;
     animation:carousel 30s infinite;
     margin-left: -40px;
     margin-bottom: 10px;
+
 }
+
 .panes > li{
-    position:relative;
-    float:left;
-    width:20%; /* 100 / number of panes */
+  position:relative;
+  float:left;
+  width:20%; /* 100 / number of panes */
     
 }
+
 .carousel img{
-    display:block;
-    width:100%;
-    min-width:100%;
+  display:block;
+  width:100%;
+  min-width:100%;
+
 }
+
 .carousel h2{
-    font-size:1em;
-    padding:0.5em;
-    position:absolute;
-    right:10px;
-    bottom:10px;
-    left:10px;
-    text-align:right;
-    color:#fff;
-    background-color:rgba(0,0,0,0.75);
+  font-size:1em;
+  padding:0.5em;
+  position:absolute;
+  right:10px;
+  bottom:10px;
+  left:10px;
+  text-align:right;
+  color:#fff;
+  background-color:rgba(0,0,0,0.75);
+
 }
 
 @keyframes carousel{
-    0%    { left:0; }
-    11%   { left:0; }
-    12.5% { left:-100%; }
-    23.5% { left:-100%; }
-    25%   { left:-200%; }
-    36%   { left:-200%; }
-    37.5% { left:-300%; }
-    48.5% { left:-300%; }
-    50%   { left:-400%; }
-    61%   { left:-400%; }
-    62.5% { left:-300%; }
-    73.5% { left:-300%; }
-    75%   { left:-200%; }
-    86%   { left:-200%; }
-    87.5% { left:-100%; }
-    98.5% { left:-100%; }
-    100%  { left:0; }
+  0%    { left:0; }
+  11%   { left:0; }
+  12.5% { left:-100%; }
+  23.5% { left:-100%; }
+  25%   { left:-200%; }
+  36%   { left:-200%; }
+  37.5% { left:-300%; }
+  48.5% { left:-300%; }
+  50%   { left:-400%; }
+  61%   { left:-400%; }
+  62.5% { left:-300%; }
+  73.5% { left:-300%; }
+  75%   { left:-200%; }
+  86%   { left:-200%; }
+  87.5% { left:-100%; }
+  98.5% { left:-100%; }
+  100%  { left:0; }
+
 }
 
 .login {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
 }
 
 .loginLeftRight {
-    height: 700px;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
+  height: 700px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
     
 }
 
 .loginPicLeft {
-    height: 120%;
-    width: 245%;
+  height: 120%;
+  width: 245%;
     
 }
 
 .loginPicRight {    
-    height: 120%;
-    width: 245%;
+  height: 120%;
+  width: 245%;
         
 }
 
 .loginInnerContainer {
-    display: flex;
-    justify-content: center;
-    margin: 20px 20px 0px 20px;
+  display: flex;
+  justify-content: center;
+  margin: 20px 20px 0px 20px;
 
 }
 
 .loginBody {
-    color: white;
-    background: grey;
-    min-height: 300px;
-    width: 100%;
+  color: white;
+  background: grey;
+  min-height: 300px;
+  width: 100%;
 
 }
 
 .loginText {
-    display: flex;
-    justify-content: center;
-    text-shadow: 2px 2px black;
+  display: flex;
+  justify-content: center;
+  text-shadow: 2px 2px black;
+
 }
 
 .loginItemName {
-    width: 300px;
-    height: 18px;
-    display: block;
-    font-size: 30px;
-    text-shadow: 2px 2px black;
+  width: 300px;
+  height: 18px;
+  display: block;
+  font-size: 30px;
+  text-shadow: 2px 2px black;
+
 }
 
 .loginItem {
-    width: 290px;
-    height: 18px;
-    display: block;
-/*    margin: 0 auto;*/
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
-    box-shadow: 3px 3px black;
+  width: 290px;
+  height: 18px;
+  display: block;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  box-shadow: 3px 3px black;
+
 }
+
 .loginButton {
-    display: block;
-    margin: 0 auto;
-    border-bottom: 1px double black;
-    border-right: 1px solid black;
-    font-family: inherit;
-    font-size: 25px;
+  display: block;
+  margin: 0 auto;
+  border-bottom: 1px double black;
+  border-right: 1px solid black;
+  font-family: inherit;
+  font-size: 25px;
+
 }
 
 .menu {
-    text-align: center;
-    border-left: 50px double black;
-    border-right: 50px double black;
+  text-align: center;
+  border-left: 50px double black;
+  border-right: 50px double black;
     
 }
 
 .menuContainer {
-    
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 
 }
 
 .menuCategories {
-    height: auto;
-    width: 600px;
-    display: grid;
-    background-image: url(img/chalkboard_by_lorelinde-d8u2l4g.jpg);
-    background-repeat: repeat-y;
-    color: white;
-    margin-top: 20px;
-    margin-bottom: 20px;    
+  height: auto;
+  width: 600px;
+  display: grid;
+  background-image: url(img/chalkboard_by_lorelinde-d8u2l4g.jpg);
+  background-repeat: repeat-y;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;    
   
 }
 
 .menuItems {
-    border-image-source: url(img/border-md.png) 100% stretch;
-    text-shadow: 2px 2px grey;
+  border-image-source: url(img/border-md.png) 100% stretch;
+  text-shadow: 2px 2px grey;
+
 }
 
 .productsContainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
 }
 
 .productsUsersTitle {
-    text-align: center;
+  text-align: center;
+
 }
 
 .productsUsersButton {
-    width: auto;
-    position: relative;
-    left: 46%;
-    border-bottom: 1px solid blacks;
-    font-family: inherit;
-    font-size: 25px;
+  width: auto;
+  position: relative;
+  left: 46%;
+  border-bottom: 1px solid blacks;
+  font-family: inherit;
+  font-size: 25px;
     
 }
 
 .addProductsButton {
-    width: auto;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    font-family: inherit;
-    font-size: 25px;
+  width: auto;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  font-family: inherit;
+  font-size: 25px;
+
 }
 
 .deleteButton {
-    width: auto;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    font-family: inherit;
-    font-size: 25px;
+  width: auto;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  font-family: inherit;
+  font-size: 25px;
+
 }
 
 .products {
-    height: auto;
-    width: 45%;
-    display: block;
-/*
-    justify-content: space-between;
-    flex-direction: column;
-*/
-    color: white;
-    background: grey;
-    margin-top: 10px;
-    margin-right 10px;  
-    border: 10px black;
-    border-style: groove groove groove double;
+  height: auto;
+  width: 45%;
+  display: block;
+  color: white;
+  background: grey;
+  margin-top: 10px;
+  margin-right 10px;  
+  border: 10px black;
+  border-style: groove groove groove double;
+
 }
 
 .users {
-    color: white;
-    background: grey;
-    height: auto;
-    width: 45%;
-    display: block;
-    margin-top: 10px;
-    margin-right 10px;
-    border: 10px black;
-    border-style: groove groove groove double;
-}
+  color: white;
+  background: grey;
+  height: auto;
+  width: 45%;
+  display: block;
+  margin-top: 10px;
+  margin-right 10px;
+  border: 10px black;
+  border-style: groove groove groove double;
 
-/*
-.aboutTitle {
-  text-decoration: underline;
-    text-align: center;
 }
-*/
 
 .map {
-    height: auto;
-    width: auto;
-    display: flex;
-    justify-content: space-between;
-    border: 5px double black;
-    box-shadow: 3px 3px grey
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  border: 5px double black;
+  box-shadow: 3px 3px grey
+
 }
 
 .aboutIcons {
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
     
 }
 
 .faqs {
-    text-align: center;
-    
+  text-align: center;
+  
 }
 
 .faqsPicLeft {
-    display: inline-block;
-    float: left;
-    border: 2px solid black;
+  display: inline-block;
+  float: left;
+  border: 2px solid black;
     
 }
 
 .faqsPicRight {
-    display: inline-block;
-    float: right;
-    border: 2px solid black;
+  display: inline-block;
+  float: right;
+  border: 2px solid black;
 
 }
 
 .seasonal {
-    text-align: center;
+  text-align: center;
+
 }
 
 .seasonalImg {
-    border: 2px solid black;
+  border: 2px solid black;
+
 }
 
 button {
-    height: 40px;
-    width: 100px;
-    border: none;
-    background: none;
-    text-align: center;
-    color: black;
+  height: 40px;
+  width: 100px;
+  border: none;
+  background: none;
+  text-align: center;
+  color: black;
     
 }
 
 button:hover {
-    background-color: grey;
-    color: white;
+  background-color: grey;
+  color: white;
     
 }
 
 button:active {
-    text-decoration-color: white;
-    background-color: black;
+  text-decoration-color: white;
+  background-color: black;
    
 }
 
 a {
-    font-family: 'Sacramento', cursive;
-    font-size: 30px;
-    color: inherit;
-    text-decoration-line: underline;
+  font-family: 'Sacramento', cursive;
+  font-size: 30px;
+  color: inherit;
+  text-decoration-line: underline;
+
 }
 
 a:hover {
-    color: white;
-    text-shadow: 2px 2px grey;
+  color: white;
+  text-shadow: 2px 2px grey;
+
 }
 
-
 label {
-    font-size: 30px;
+  font-size: 30px;
+
 }
 
 h1 {
-    font-size: 60px;
+  font-size: 60px;
+
 }
 
 h3 {
-    font-size: 50px;
+  font-size: 50px;
+
 }
 
 h4 {
-    font-size: 40px;
+  font-size: 40px;
+
 }
 
 p {
-    font-size: 25px;
+  font-size: 25px;
+
 }
