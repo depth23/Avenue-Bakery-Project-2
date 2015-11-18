@@ -128,8 +128,8 @@ html, body {
 
 .homePic {
   float: left;
-  border: 2px double black;
-
+  border: 0.3 double black;
+  margin-top: 1em;
 }
 
 .carousel{
