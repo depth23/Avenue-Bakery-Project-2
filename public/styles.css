@@ -147,8 +147,9 @@ html, body {
     -moz-animation:carousel 30s infinite;
     -webkit-animation:carousel 30s infinite;
     animation:carousel 30s infinite;
-    margin-left: -40px;
-    margin-bottom: 10px;
+    margin-top: 1em;
+    margin-left: -2.5em;
+    margin-bottom: 1em;
 
 }
 
@@ -170,9 +171,9 @@ html, body {
   font-size:1em;
   padding:0.5em;
   position:absolute;
-  right:10px;
-  bottom:10px;
-  left:10px;
+  right: 5em;
+  bottom: 1em;
+  left: 1em;
   text-align:right;
   color:#fff;
   background-color:rgba(0,0,0,0.75);
