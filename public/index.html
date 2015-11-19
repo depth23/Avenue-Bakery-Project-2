@@ -42,9 +42,7 @@
         <button class="navItem"><a href="#/About">About</a></button>
         <button class="navItemEnd"><a href="#/Faqs">FAQ's</a></button>
 <!--        <button class="navItem"><a href="#/Cart">Cart</a></button>-->
-      
-<!--      ng-if="admin"-->
-        <button class="navItem"><a href="#/Admin">Admin</a></button>
+        <button class="navItem" ng-if="admin"><a href="#/Admin">Admin</a></button>
         <button class="navItemEnd" ng-if="loggedIn" ng-click="logOutUser()"><u>Log Out</u></button>
     </nav>
     <br />
