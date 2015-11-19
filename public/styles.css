@@ -347,7 +347,7 @@ html, body {
 }
 
 .productsContainer {
-  text-shadow: 0.01em 0.01em black;
+  text-shadow: 0.2em 0.2em black;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
