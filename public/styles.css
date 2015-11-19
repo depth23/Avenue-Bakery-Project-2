@@ -348,6 +348,15 @@ html, body {
 
 }
 
+.cartContainer {
+  width: 100%;
+
+}
+
+.cartItems {
+
+}
+
 .cartPrice {
   float: right;
   
