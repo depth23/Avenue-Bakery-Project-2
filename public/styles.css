@@ -371,19 +371,21 @@ html, body {
 
 .totals {
   float: right;
-  font-size: 1em;
+  font-size: 3em;
   
 }
 
 .totalBar {
   width: 5em;
-  right: 1em;
+  position: absolute;
+  right: 4em;
   border-bottom: 0.2em solid black;
 
 }
 
 .total {
   position: absolute;
+  right: 9em;
 
 }
 
