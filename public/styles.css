@@ -273,7 +273,7 @@ html, body {
 
 }
 
-.loginJoinMessage {
+#loginJoinMessage {
   width: 11em;
   position: relative;
   left: 0.5em;
