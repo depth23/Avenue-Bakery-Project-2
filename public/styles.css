@@ -273,6 +273,13 @@ html, body {
 
 }
 
+.loginJoinMessage {
+  width: 11em;
+  position: relative;
+  left: 0.5em;
+  
+}
+
 .loginButton {
   display: block;
   margin: 0 auto;
