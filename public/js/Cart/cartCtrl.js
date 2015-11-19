@@ -14,4 +14,17 @@ app.controller('cartCtrl', function($scope, cartSrvc) {
         cart();
     }
     
+    $scope.sum = function(cart) {
+      if(cartSrvc.getCart) {
+        var sum = 0;
+        $.each(cart,function() {
+          total += this;
+        });
+      }
+      else {
+        sum = 0;
+      }
+      console.log($scope.sum());
+    }
+    
 });
