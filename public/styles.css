@@ -280,6 +280,13 @@ html, body {
   
 }
 
+#loginIncentiveMessage {
+  position: relative;
+  left: 1em;
+  font-size: 1em;
+
+}
+
 .loginButton {
   display: block;
   margin: 0 auto;
