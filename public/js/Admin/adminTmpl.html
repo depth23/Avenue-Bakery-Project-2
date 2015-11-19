@@ -3,7 +3,7 @@
     <br >
     <button class= "productsUsersButton" ng-click="click = !click">Products/Users</button>
     <div class="productsInput">
-        <h1 class="productsUsersTitle">Products</h1>
+        <h1 class="productsUsersTitle">~ Products ~</h1>
         <h4>Add Product</h4>
         <label>Img URL
             <input ng-model="newProduct.image" type="text" placeholder="Type Here">
@@ -52,7 +52,7 @@
         <button class="productsUsersButton" ng-click="click = !click">Products/Users</button>
     </div>
     <div>
-        <h1 class="productsUsersTitle">Users</h1>
+        <h1 class="productsUsersTitle">~ Users ~</h1>
         <div class="users" ng-model="allUsers" ng-if="users.length > 0" ng-repeat="user in users">
             Name:  {{user.first + " " + user.last}}
             <br />
