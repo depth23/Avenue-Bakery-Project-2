@@ -362,6 +362,21 @@ html, body {
   
 }
 
+.cartButton {
+  border-bottom: 0.1em solid black;
+
+}
+
+.totals {
+  float: right;
+  
+}
+
+.totalBar {
+  width: 3em;
+  border-bottom: 0.2em solid black;
+}
+
 .productsContainer {
   text-shadow: 0.15em 0.1em black;
   display: flex;
