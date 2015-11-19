@@ -376,16 +376,16 @@ html, body {
 }
 
 .totalBar {
-  width: 5em;
+  width: 2em;
   position: absolute;
-  right: 4em;
+  right: 1em;
   border-bottom: 0.2em solid black;
 
 }
 
 .total {
   position: absolute;
-  right: 9em;
+  right: 3em;
 
 }
 
