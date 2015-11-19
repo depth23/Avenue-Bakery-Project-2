@@ -262,12 +262,14 @@ html, body {
 }
 
 .loginItem {
-  width: 290px;
-  height: 18px;
+  width: 25em;
+  height: 2em;
+  position: relative;
+  left: 1em;
   display: block;
-  border-right: 2px solid black;
-  border-bottom: 2px solid black;
-  box-shadow: 3px 3px black;
+  border-right: 0.1em solid black;
+  border-bottom: 0.1em solid black;
+  box-shadow: 0.5em 0.5em black;
 
 }
 
