@@ -345,6 +345,12 @@ html, body {
   height: 11em;
   width: 20em;
   margin-right: 37em;
+
+}
+
+.cartPrice {
+  float: right;
+  
 }
 
 .productsContainer {
