@@ -31,8 +31,8 @@ html, body {
 }
 
 .logo {
-  height: inherit;
-  width: 40%;
+  height: 12em;
+  width: 20em;
   background: white;
   border-radius: 100%;
     
