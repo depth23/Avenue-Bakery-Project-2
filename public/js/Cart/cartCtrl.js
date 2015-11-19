@@ -18,11 +18,11 @@ app.controller('cartCtrl', function($scope, cartSrvc) {
       if(cartSrvc.getCart) {
         var sum = 0;
         $.each(cart,function() {
-          total += this;
+          sum += this;
         });
       }
       else {
-        sum = 0;
+        sum = "0.00";
       }
       console.log($scope.sum());
     }
