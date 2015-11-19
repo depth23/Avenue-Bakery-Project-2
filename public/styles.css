@@ -378,6 +378,12 @@ html, body {
 .totalBar {
   width: 3em;
   border-bottom: 0.2em solid black;
+
+}
+
+.total {
+  
+
 }
 
 .productsContainer {
