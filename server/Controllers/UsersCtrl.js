@@ -1,18 +1,18 @@
 var User = require('../Models/Users')
 
 module.exports = {
-//  me: function(req, res){
-//        if(!req.user && !req.session.user){
-//            return res.status(401).send();
-//        } else {
-//            if (req.session.user) {
-//                req.session.user.password = null;
-//                return res.json(req.session.user);
-//            }
-//            req.user.password = null;
-//            return res.json(req.user);
-//        }
-//    },
+  me: function(req, res){
+        if(!req.user && !req.session.user){
+            return res.status(401).send();
+        } else {
+            if (req.session.user) {
+                req.session.user.password = null;
+                return res.json(req.session.user);
+            }
+            req.user.password = null;
+            return res.json(req.user);
+        }
+    },
   
    create: function(req, res){
        //var newUser = new User(req.body);
