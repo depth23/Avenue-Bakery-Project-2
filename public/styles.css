@@ -370,6 +370,8 @@ html, body {
 }
 
 .totals {
+  position: relative;
+  left: 25em;
   font-size: 3em;
   
 }
@@ -377,6 +379,12 @@ html, body {
 .totalBar {
   width: 2em;
   border-bottom: 0.2em solid black;
+
+}
+
+.addTotal {
+  position: relative;
+  right: 2em;
 
 }
 
