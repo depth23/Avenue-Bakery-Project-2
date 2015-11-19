@@ -9,6 +9,7 @@ app.controller('avBCtrl', function($scope, avBSrvc, $location) {
 //        $scope.user = res.data;
 //      }
 //      else {
+      console.log(res);
        $scope.customerName = 'Welcome, ' + res.data.first;
 //        $scope.user = res.data;
 //        console.log('Current User', res);
