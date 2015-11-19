@@ -54,7 +54,7 @@
     <div>
         <h1 class="productsUsersTitle">Users</h1>
         <div class="users" ng-model="allUsers" ng-if="users.length > 0" ng-repeat="user in users">
-            Name: {{user.first + user.last}}
+            Name: {{user.first + " " + user.last}}
             <br />
             Email: {{user.email}}
             <br />
