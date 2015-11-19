@@ -7,13 +7,15 @@
             <div class="menuItems" ng-repeat="item in val">
                 <h3>~{{item.name}}~</h4>
                 <img ng-show="item.image" ng-src="{{item.image}}" height="100" width="150" />
-                <p>- {{item.description}}</p>
-                <strong>$ {{item.price}}</strong>
+                <p class="menuDescription">- {{item.description}}</p>
+                <strong class="menuPrice">$ {{item.price}}</strong>
                 <br />
                 <br />
+<!--
                 <span id="menuButtons">
                     <button ng-click="addToCart(item)">Add To Cart</button>
                 </span> 
+-->
                 <br />
                 <br />
             </div>
