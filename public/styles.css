@@ -243,6 +243,7 @@ html, body {
   min-height: 300px;
   width: 100%;
   margin-top: -1.25em;
+  border: 0.2em solid black;
 
 }
 
@@ -270,7 +271,7 @@ html, body {
   display: block;
   border-right: 0.1em solid black;
   border-bottom: 0.1em solid black;
-  box-shadow: 0.5em 0.5em black;
+  box-shadow: 0.2em 0.2em black;
 
 }
 
