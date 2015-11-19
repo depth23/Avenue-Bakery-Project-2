@@ -12,8 +12,7 @@ html, body {
 }
 
 .header {
-  min-height: 170px;
-  height: 30%;
+  height: 12em;
   width: 100%;
   display: flex;
   justify-content: center;
