@@ -370,34 +370,27 @@ html, body {
 }
 
 .totals {
-  float: right;
   font-size: 3em;
   
 }
 
 .totalBar {
   width: 2em;
-  position: absolute;
-  right: 1em;
   border-bottom: 0.2em solid black;
 
 }
 
 .sum {
-  position: relative;
-  right: -0.4em;
+  
   
 }
 
 .tax {
-  position: relative;
-  right: -0.37em;
+ 
 }
 
 .total {
-  position: absolute;
-  right: 3em;
-
+  
 }
 
 .productsContainer {
