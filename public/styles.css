@@ -208,11 +208,12 @@ html, body {
 }
 
 .loginLeftRight {
-  height: 40em;
+  height: 46em;
   width: 36%;
   display: flex;
   justify-content: center;
   overflow: hidden;
+  border: 1em double black;
     
 }
 

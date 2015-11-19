@@ -40,6 +40,7 @@ var isAuthed = function(req, res, next){
 //  }
 
 // Endpoints -- VIEW -- CRUD
+app.get('/user', UserController.me);
 app.post('/user', UsersCtrl.create);
 app.get('/users', UsersCtrl.read);
 app.put('/users/remove', UsersCtrl.remove);
