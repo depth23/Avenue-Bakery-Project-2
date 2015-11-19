@@ -297,7 +297,7 @@ html, body {
 
 .menuCategories {
   height: auto;
-  width: 600px;
+  width: 42em;
   display: grid;
   background-image: url(img/chalkboard_by_lorelinde-d8u2l4g.jpg);
   background-repeat: repeat-y;
