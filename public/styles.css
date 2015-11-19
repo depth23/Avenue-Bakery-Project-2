@@ -208,8 +208,8 @@ html, body {
 }
 
 .loginLeftRight {
-  height: 27em;
-  width: 30%;
+  height: 40em;
+  width: 36%;
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -236,6 +236,7 @@ html, body {
 }
 
 .loginBody {
+  text-align: center;
   color: white;
   background: grey;
   min-height: 300px;
