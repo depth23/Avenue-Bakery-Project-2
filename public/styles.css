@@ -114,14 +114,14 @@ html, body {
 }
 
 .homeType {
-  width: 50%;
+  width: 12em%;
   background-image: url(img/border-md.jpg);
   background-repeat:round;
   background-size: 75% 100%;
   float: right; 
   text-align: center;
-  text-shadow: 2px 2px white;
-  font-size: 70px;
+  text-shadow: 0.03em 0.03em white;
+  font-size: 4.5em;
     
 }
 
