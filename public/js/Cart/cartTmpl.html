@@ -4,7 +4,7 @@
         <h4>{{item.name}}</h4>
             <img ng-show="item.image" ng-src="{{item.image}}" height="55" width="55" />
             <p>{{item.description}}</p>
-            <strong class="cartPrice">{{item.price}}</strong>
+            <strong class="cartPrice">$ {{item.price}}</strong>
         <button class="cartButton" ng-click="removeFromCart($index)">Delete</button>
     </div>
     <div class="totals">
