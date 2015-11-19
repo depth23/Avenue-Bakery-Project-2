@@ -313,13 +313,13 @@ html, body {
 }
 
 .menuDescription {
-  font-size: 3em;
+  font-size: 2em;
   
 }
 
 .menuPrice {
-  font-size: 2em;
-  text-decoration: underline;
+  font-size: 1em;
+  border-bottom: 0.01em solid white;
   
 }
 
