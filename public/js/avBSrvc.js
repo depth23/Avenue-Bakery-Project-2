@@ -7,6 +7,8 @@ app.service("avBSrvc", function($http) {
     return $http({
       method: "GET",
       url: "/user" 
+    }).then(function(res) {
+      return res.data;
     })
   };
   
