@@ -383,6 +383,11 @@ html, body {
 
 }
 
+.tax {
+  position: absolute;
+  right: 3.5em;
+}
+
 .total {
   position: absolute;
   right: 3em;
