@@ -356,7 +356,7 @@ html, body {
 }
 
 .cartItems {
-
+  text-shadow: 0.1em 0.1em lightgray;
 }
 
 .cartPrice {
@@ -371,6 +371,7 @@ html, body {
 
 .totals {
   float: right;
+  font-size: 1em;
   
 }
 
