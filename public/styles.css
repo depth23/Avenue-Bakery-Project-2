@@ -208,7 +208,7 @@ html, body {
 }
 
 .loginLeftRight {
-  height: 700px;
+  height: 27em;
   width: 30%;
   display: flex;
   justify-content: center;
