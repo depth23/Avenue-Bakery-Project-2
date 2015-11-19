@@ -12,7 +12,8 @@ app.controller('loginCtrl', function($scope, loginSrvc, $location) {
     $scope.logInUser = function(credentials) {
         
         loginSrvc.logInUser(credentials).then(function(response) {
-            console.log('success')
+          console.log(res);  
+          console.log('success')
             $location.path('/Menu');
         })
     }
