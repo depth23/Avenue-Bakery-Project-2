@@ -384,8 +384,8 @@ html, body {
 }
 
 .tax {
-  position: absolute;
-  right: 3.5em;
+  position: relative;
+  right: 0.37em;
 }
 
 .total {
