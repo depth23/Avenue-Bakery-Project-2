@@ -383,6 +383,12 @@ html, body {
 
 }
 
+.sum {
+  position: relative;
+  right: -0.4em;
+  
+}
+
 .tax {
   position: relative;
   right: -0.37em;
