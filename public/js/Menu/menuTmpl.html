@@ -2,13 +2,13 @@
     <h1 class="pageTitle">Menu</h1>
     <div class="menuContainer" ng-repeat="(key, val) in menuItems">
         <div class="menuCategories">
-            <h1><strong>{{key}}</strong></h2>
+            <h1 class="menuTitles"><strong>{{key}}</strong></h2>
             <br />
             <div class="menuItems" ng-repeat="item in val">
                 <h3>{{item.name}}</h4>
                 <img ng-show="item.image" ng-src="{{item.image}}" height="100" width="150" />
-                <p>{{item.description}}</p>
-                <strong>${{item.price}}</strong>
+                <p>- {{item.description}}</p>
+                <strong>$ {{item.price}}</strong>
                 <br />
                 <br />
                 <span id="menuButtons">
