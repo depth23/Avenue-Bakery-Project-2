@@ -356,6 +356,7 @@ html, body {
 }
 
 .productsUsersTitle {
+  text-decoration: underline;
   text-align: center;
 
 }
