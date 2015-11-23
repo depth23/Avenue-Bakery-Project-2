@@ -72,8 +72,8 @@ html, body {
   justify-content: center;
   background: black;
   border-top: 3em double white;
-  border-right: 2em solid white;
-  border-left: 2em solid white;
+  border-right: 2em solid black;
+  border-left: 2em solid black;
 
 }
 
