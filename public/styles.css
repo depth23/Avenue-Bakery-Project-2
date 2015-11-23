@@ -301,14 +301,15 @@ html, body {
 
 .menu {
   text-align: center;
-  border-left: 50px double black;
-  border-right: 50px double black;
+  border-left: 4em double black;
+  border-right: 4em double black;
     
 }
 
 .menuContainer {
   height: 100%;
   width: 100%;
+  max-width: 85em;
   text-align: center;
   position: relative;
   left: 19em;
