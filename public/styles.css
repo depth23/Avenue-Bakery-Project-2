@@ -86,8 +86,8 @@ a:hover {
   justify-content: center;
   background: black;
   border-top: 3em double white;
-  border-right: 2em solid black;
-  border-left: 2em solid black;
+  border-right: 2em solid white;
+  border-left: 2em solid white;
 
 }
 
@@ -103,7 +103,7 @@ a:hover {
   width: 9.2em;
   display: inline-block; 
   text-align: center;
-/*  text-shadow: 1px 1px grey;*/
+  text-shadow: 0.05em 0.05em grey;
   background: white;
   text-decoration: none;
 
