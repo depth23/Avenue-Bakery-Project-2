@@ -99,6 +99,7 @@ a:hover {
 
 .footerItem {
   font-size: 1em;
+  font-weight: 900;
   height: auto;
   width: 9.2em;
   display: inline-block; 
