@@ -105,6 +105,7 @@ a:hover {
   text-align: center;
 /*  text-shadow: 1px 1px grey;*/
   background: white;
+  text-decoration: none;
 
 }
 
@@ -112,7 +113,6 @@ a:hover {
   display: flex;
   justify-content: center;
   font-weight: 800;
-  text-decoration: none;
 
 }
 
