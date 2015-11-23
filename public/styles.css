@@ -71,24 +71,25 @@ html, body {
   display: flex;
   justify-content: center;
   background: black;
-  border-top: 50px double white;
-  border-right: 20px solid white;
-  border-left: 20px solid white;
+  border-top: 3em double white;
+  border-right: 2em solid white;
+  border-left: 2em solid white;
 
 }
 
 .footerTitle {
-  font-size: 25px;
-  border-bottom: 1px solid white;
+  font-size: 2em;
+  border-bottom: 0.1em solid black;
 
 }
 
 .footerItem {
+  font-size: 1em;
   height: auto;
-  width: 160px;
+  width: 10em;
   display: inline-block; 
   text-align: center;
-  text-shadow: 1px 1px grey;
+/*  text-shadow: 1px 1px grey;*/
   background: white;
 
 }
