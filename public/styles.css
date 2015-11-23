@@ -310,7 +310,8 @@ html, body {
   height: 100%;
   width: 100%;
   text-align: center;
-  margin-left: 19em;
+  position: relative;
+  left: 19em;
 /*
   display: flex;
   justify-content: center;
@@ -362,6 +363,8 @@ html, body {
 #menuBottomBorder {
   height: 11em;
   width: 20em;
+  position: relative;
+  right: 18em;
   margin-right: 37em;
 
 }
