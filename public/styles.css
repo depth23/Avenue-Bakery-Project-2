@@ -117,11 +117,10 @@ a:hover {
 
 .footerItemStripe {
   min-height: 100%;
-  width: 60px;
+  width: 4em;
   display: inline-block; 
   margin: 0 auto;
   background: white;
-  border-left: 5px double white;
 
 }
 
