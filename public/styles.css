@@ -140,6 +140,7 @@ html, body {
 }
 
 .panes{
+  font-size: 1.5em;
   list-style:none;
   position: relative;
   width:500%; /* Number of panes * 100% */
@@ -148,7 +149,7 @@ html, body {
     -webkit-animation:carousel 30s infinite;
     animation:carousel 30s infinite;
     margin-top: 0em;
-    margin-left: -2.5em;
+    margin-left: -1.5em;
     margin-bottom: 0em;
 
 }
