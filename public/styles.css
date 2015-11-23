@@ -6,6 +6,20 @@ html, body {
 
 }
 
+a {
+  font-family: 'Sacramento', cursive;
+  font-size: 30px;
+  color: inherit;
+  text-decoration-line: underline;
+
+}
+
+a:hover {
+  color: white;
+  text-shadow: 2px 2px grey;
+
+}
+
 .pageTitle{
   text-align: center;
   text-decoration: underline;
@@ -558,19 +572,6 @@ button:active {
    
 }
 
-a {
-  font-family: 'Sacramento', cursive;
-  font-size: 30px;
-  color: inherit;
-  text-decoration-line: underline;
-
-}
-
-a:hover {
-  color: white;
-  text-shadow: 2px 2px grey;
-
-}
 
 label {
   font-size: 30px;
