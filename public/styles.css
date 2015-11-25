@@ -514,6 +514,11 @@ a:hover {
 
 }
 
+.aboutImage {
+  height: 20em;
+  width: auto;
+}
+
 .map {
   height: auto;
   width: auto;
