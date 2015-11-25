@@ -7,7 +7,10 @@ html, body {
 }
 
 .page-wrap {
-  margin: 0 auto;
+  height: 100%;
+  width: 85em;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
