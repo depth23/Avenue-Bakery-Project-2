@@ -1,27 +1,182 @@
 <div class="menu">
-    <h1 class="pageTitle">Menu</h1>
-    <div class="menuContainer" ng-repeat="(key, val) in menuItems">
-        <div class="menuCategories">
-            <h1 class="menuTitles"><strong>{{key}}</strong></h2>
-            <br />
-            <div class="menuItems" ng-repeat="item in val">
-                <h3>~ {{item.name}} ~</h4>
-                <img ng-show="item.image" ng-src="{{item.image}}" height="100" width="150" />
-                <p class="menuDescription">- {{item.description}}</p>
-                <strong class="menuPrice">$ {{item.price}}</strong>
-                <br />
-                <br />
+  <h1 class="pageTitle">Menu</h1>
 <!--
-                <span id="menuButtons">
-                    <button ng-click="addToCart(item)">Add To Cart</button>
-                </span> 
--->
-                <br />
-                <br />
-            </div>
-        </div>
-      <div>
-        <img class="menuCategories" id="menuBottomBorder" src="../../img/border-md.jpg" />
-      </div>
+    <div>
+      <img id="menuTopBorder" src="../../img/border-md.jpg" />
     </div>
+-->
+  <!-- this was in the menucontainer div to get from the database 
+    ng-repeat="(key, val) in menuItems"
+  -->
+  <div class="menuContainer">
+    <div class="menuCategories">
+      <nav class="menuNav">
+        <button ng-click="breads = !breads" class="menuNavBtn">Breads</button>
+        <button ng-click="breakfast = !breakfast" class="menuNavBtn">Breakfast</button>
+        <button ng-click="cakes = !cakes" class="menuNavBtn">Cakes</button>
+        <button ng-click="cCakes = !cCakes" class="menuNavBtn">Cheesecakes</button>
+        <button ng-click="mCakes = !mCakes" class="menuNavBtn">Mousse Cakes</button>
+        <button ng-click="panini = !panini" class="menuNavBtn">Panini</button>
+        <button ng-click="soups = !soups" class="menuNavBtn">Soups</button>
+        <button ng-click="salads = !salads" class="menuNavBtn">Salads</button>
+        <button ng-click="sandw = !sandw" class="menuNavBtn">Sandwiches</button>
+        <button ng-click="savCrepes = !savCrepes" class="menuNavBtn">Savory Crepes</button>
+        <button ng-click="swCrepes = !swCrepes" class="menuNavBtn">Sweet Crepes</button>  
+      </nav>
+    
+      <div ng-show="breads">
+        <h1 class="menuTitles">Breads</h1>
+        <br />
+        <div class="menuItems">
+          <h3 class="menuTitles"></h3>
+          <p class="menuItems">Coming Soon!</p>
+          <strong class="menuPrice"></strong>
+          <br />
+          <br />
+        </div>
+      </div>
+    
+      <div ng-show="breakfast">
+        <h1 class="menuTitles">Breakfast</h1>
+        <br />
+        <div class="menuItems">
+          <h3 class="menuTitles"></h3>
+          <p class="menuDescription"></p>
+          <strong class="menuPrice"></strong>
+          <br />
+          <br />
+        </div>  
+      </div>
+      
+      <div ng-show="cakes">
+        <h1 class="menuTitles">Cakes</h1>
+        <br />
+        <div class="menuItems">
+          <h3 class="menuTitles"></h3>
+          <p class="menuDescription"></p>
+          <strong class="menuPrice"></strong>
+          <br />
+          <br />
+        </div>  
+      </div>
+      
+      <div ng-show="cCakes">
+        <h1 class="menuTitles">Cheesecakes</h1>
+        <br />
+        <div class="menuItems">
+          <h3 class="menuTitles"></h3>
+          <p class="menuDescription"></p>
+          <strong class="menuPrice"></strong>
+          <br />
+          <br />
+        </div>  
+      </div>
+      
+      <div ng-show="mCakes">
+        <h1 class="menuTitles">Mousse Cakes</h1>
+        <br />
+        <div class="menuItems">
+          <h3 class="menuTitles"></h3>
+          <p class="menuDescription"></p>
+          <strong class="menuPrice"></strong>
+          <br />
+          <br />
+        </div>  
+      </div>
+      
+      <div ng-show="panini">
+        <h1 class="menuTitles">Panini</h1>
+        <br />
+        <div class="menuItems">
+          <h3 class="menuTitles"></h3>
+          <p class="menuDescription"></p>
+          <strong class="menuPrice"></strong>
+          <br />
+          <br />
+        </div>  
+      </div>
+      
+      <div ng-show="soups">
+        <h1 class="menuTitles">Soups</h1>
+        <br />
+        <div class="menuItems">
+          <h3 class="menuTitles"></h3>
+          <p class="menuDescription"></p>
+          <strong class="menuPrice"></strong>
+          <br />
+          <br />
+        </div>  
+      </div>
+      
+      <div ng-show="salads">
+        <h1 class="menuTitles">Salads</h1>
+        <br />
+        <div class="menuItems">
+          <h3 class="menuTitles"></h3>
+          <p class="menuDescription"></p>
+          <strong class="menuPrice"></strong>
+          <br />
+          <br />
+        </div>  
+      </div>
+      
+      <div ng-show="sandw">
+        <h1 class="menuTitles">Sandwiches</h1>
+        <br />
+        <div class="menuItems">
+          <h3 class="menuTitles"></h3>
+          <p class="menuDescription"></p>
+          <strong class="menuPrice"></strong>
+          <br />
+          <br />
+        </div>  
+      </div>
+      
+      <div ng-show="savCrepes">
+        <h1 class="menuTitles">Savory Crepes</h1>
+        <br />
+        <div class="menuItems">
+          <h3 class="menuTitles"></h3>
+          <p class="menuDescription"></p>
+          <strong class="menuPrice"></strong>
+          <br />
+          <br />
+        </div>  
+      </div>
+      
+      <div ng-show="swCrepes">
+        <h1 class="menuTitles">Sweet Crepes</h1>
+        <br />
+        <div class="menuItems">
+          <h3 class="menuTitles"></h3>
+          <p class="menuDescription"></p>
+          <strong class="menuPrice"></strong>
+          <br />
+          <br />
+        </div>  
+      </div>
+      
+    </div>
+    <!--
+      <h1 class="menuTitles"><strong>{{key}}</strong></h2>
+      <br />
+      <div class="menuItems" ng-repeat="item in val">
+        <h3>~ {{item.name}} ~</h4>
+        <img ng-show="item.image" ng-src="{{item.image}}" height="100" width="150" />
+        <p class="menuDescription">- {{item.description}}</p>
+        <strong class="menuPrice">$ {{item.price}}</strong>
+          <br />
+          <br />
+        for when the bakery takes online orders
+        <span id="menuButtons">
+        <button ng-click="addToCart(item)">Add To Cart</button>
+        </span> 
+          <br />
+          <br />
+      </div>
+    -->
+    <div>
+      <img class="menuCategories" id="menuBottomBorder" src="../../img/border-md.jpg" />
+    </div>
+  </div>
 </div>

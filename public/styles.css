@@ -344,7 +344,7 @@ a:hover {
 
 .menuCategories {
   height: auto;
-  width: 42em;
+  width: 48em;
   display: grid;
   background-image: url(img/chalkboard_by_lorelinde-d8u2l4g.jpg);
   background-repeat: repeat-y;
@@ -352,6 +352,41 @@ a:hover {
   margin-top: 1em;
   margin-bottom: 1em;    
   
+}
+
+.menuNav {
+  position: relative;
+  right: 13em;
+  text-decoration: none;
+}
+
+.menuNavBtn {
+  height: 3.5em;
+  width: 7em;
+  color: white;
+  background-image: url(img/chalkboard_by_lorelinde-d8u2l4g.jpg);
+  border: 0.3em inset white;
+  display: block;
+  font-family: 'Sacramento', cursive;
+  font-size: 2em;
+  
+}
+
+.menuNavA {
+  text-decoration-line: none;
+  
+}
+
+.menuNavA:hover {
+  text-decoration-line: inherit;
+  outline: inherit;
+}
+
+.menuNavBtn:hover {
+  background: black;
+  color: white;
+  outline: grey;
+  border: 0.3em solid white;
 }
 
 .menuTitles {
@@ -380,6 +415,13 @@ a:hover {
 .menuButtons {
   color: white;
   
+}
+
+#menuTopBorder {
+  height: 11em;
+  width: 20em;
+  position: relative;
+  right: 0em;
 }
 
 #menuBottomBorder {

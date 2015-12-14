@@ -5,14 +5,10 @@ app.config(function($routeProvider){ $routeProvider
         templateUrl: 'js/Home/homeTmpl.html', 
         controller: 'homeCtrl' 
     })
-    .when('/Login', {
+    .when('/Register', {
           templateUrl: 'js/Login/loginTmpl.html',
           controller: 'loginCtrl' 
     })
-//    .when('/SignUp', {
-//          templateUrl: 'js/Login/registerTmpl.html',
-//          controller: 'loginCtrl' 
-//    }) 
     .when('/About/', {
           templateUrl: 'js/About/aboutTmpl.html',
           controller: 'aboutCtrl' 
@@ -24,11 +20,11 @@ app.config(function($routeProvider){ $routeProvider
     .when('/Menu/', { 
         templateUrl: 'js/Menu/menuTmpl.html', 
         controller: 'menuCtrl',
-        resolve: {
-            function(menuService){
-                return menuService.getMenu();          
-            }
-        }
+//        resolve: {
+//            function(menuService){
+//                return menuService.getMenu();          
+//            }
+//        }
     }) 
     .when('/Seasonal/', {
           templateUrl: 'js/Seasonal/seasonalTmpl.html',
@@ -38,17 +34,17 @@ app.config(function($routeProvider){ $routeProvider
           templateUrl: 'js/Cart/cartTmpl.html',
           controller: 'cartCtrl' 
     })
-    .when('/Admin/', {
-          templateUrl: 'js/Admin/adminTmpl.html',
-          controller: 'adminCtrl',
-          resolve: {
-              products: function(adminSrvc) {
-                return adminSrvc.getProducts()
-              },
-              users: function(usersSrvc) {
-                return usersSrvc.getUsers()   
-              }
-          }
-    })
+//    .when('/Admin/', {
+//          templateUrl: 'js/Admin/adminTmpl.html',
+//          controller: 'adminCtrl',
+//          resolve: {
+//              products: function(adminSrvc) {
+//                return adminSrvc.getProducts()
+//              },
+//              users: function(usersSrvc) {
+//                return usersSrvc.getUsers()   
+//              }
+//          }
+//    })
           
       .otherwise({ redirectTo: '/' }) });
